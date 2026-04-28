@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏫 Smart Campus Operations Hub
 
 > IT3030 – Programming Applications and Frameworks (PAF) Assignment 2026  
@@ -205,3 +206,7 @@ smart-campus/
 - **Report**: `IT3030_PAF_Assignment_2026_GroupXX.pdf`
 - **Repository**: `it3030-paf-2026-smart-campus-groupXX`
 - **Deadline**: 27 April 2026 at 11:45 PM (GMT +5:30)
+=======
+# smart-campus-hub
+A Smart Campus Hub is a unified digital platform that connects and manages all aspects of a university
+>>>>>>> fa5ef03d4e7a638685cd5715d5d8c7d6592e7388
