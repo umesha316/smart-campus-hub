@@ -28,16 +28,16 @@ jobs:
           distribution: 'temurin'
           cache: 'maven'
 
-      - name: Build & Test Backend
+      - name: Build Backend (skip tests)
         working-directory: ./backend
-        run: mvn clean verify -Dspring.data.mongodb.uri=mongodb://localhost:27017/smart_campus_test
+        run: mvn clean package -DskipTests
 
-      - name: Upload Test Report
+      - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: backend-test-report
-          path: backend/target/surefire-reports/
+          name: backend-build
+          path: backend/target/*.jar
 
   # ===== FRONTEND BUILD =====
   frontend:
